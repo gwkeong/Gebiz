@@ -1,4 +1,4 @@
-<Activity mc:Ignorable="sap sap2010" x:Class="GeBiz" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="1208,1485" sap2010:WorkflowViewState.IdRef="GeBiz_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<Activity mc:Ignorable="sap sap2010" x:Class="GeBiz" mva:VisualBasic.Settings="{x:Null}" sap:VirtualizedContainerService.HintSize="746,1485" sap2010:WorkflowViewState.IdRef="GeBiz_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:av="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:sd="clr-namespace:System.Data;assembly=System.Data" xmlns:ss="clr-namespace:System.Security;assembly=mscorlib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <TextExpression.NamespacesForImplementation>
     <scg:List x:TypeArguments="x:String" Capacity="37">
       <x:String>System.Activities</x:String>
@@ -71,7 +71,6 @@
       <AssemblyReference>UiPath.OCR.Activities.Design</AssemblyReference>
       <AssemblyReference>UiPath.Excel.Activities</AssemblyReference>
       <AssemblyReference>UiPath.Mail.Activities</AssemblyReference>
-      <AssemblyReference>System.Runtime.WindowsRuntime</AssemblyReference>
     </scg:List>
   </TextExpression.ReferencesForImplementation>
   <sap:WorkflowViewStateService.ViewState>
@@ -160,7 +159,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="258e1859-0b0e-411e-997a-15e7661a4d5a" InformativeScreenshot="483c25407a5cb89662739816795ee0d2" Selector="&lt;webctrl parentid='*listButton2_SELECTION-BUTTON-DIV' tag='DIV' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="258e1859-0b0e-411e-997a-15e7661a4d5a" InformativeScreenshot="f0c6880d0a290f202a827ebd0f7a4a8c" Selector="&lt;webctrl parentid='*listButton2_SELECTION-BUTTON-DIV' tag='DIV' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -203,7 +202,7 @@
                   <ui:AnchorBase.AnchorProvider>
                     <ui:WaitUiElementAppear WaitActive="{x:Null}" WaitVisible="{x:Null}" DisplayName="Find as individual" FoundElement="[foundtext]" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="WaitUiElementAppear_1">
                       <ui:WaitUiElementAppear.Target>
-                        <ui:Target Element="{x:Null}" Id="50b47ad5-5bd2-46e5-84d7-0bbf038010c5" InformativeScreenshot="029de5b29e3339672e80b6099cefb596" Selector="&lt;webctrl aaname='For Individuals' tag='INPUT' /&gt;">
+                        <ui:Target Element="{x:Null}" Id="50b47ad5-5bd2-46e5-84d7-0bbf038010c5" InformativeScreenshot="64bb26e831e1668680bf63d8835b92be" Selector="&lt;webctrl aaname='For Individuals' tag='INPUT' /&gt;">
                           <ui:Target.ClippingRegion>
                             <ui:Region Rectangle="8, 3, 113, 22" />
                           </ui:Target.ClippingRegion>
@@ -230,7 +229,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="617a0edd-daeb-4a75-9457-45a44e86e6d5" InformativeScreenshot="a0689e5d2687f6571e58a5a7373420dd" Selector="&lt;webctrl parentid='SpQrToggle-1FATab' tag='SPAN' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="617a0edd-daeb-4a75-9457-45a44e86e6d5" InformativeScreenshot="11bb318db2009f35dbc2c1d46c53a6d3" Selector="&lt;webctrl parentid='SpQrToggle-1FATab' tag='SPAN' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -242,7 +241,7 @@
                 </ui:Click>
                 <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type ID" EmptyField="True" sap:VirtualizedContainerService.HintSize="726,134" sap2010:WorkflowViewState.IdRef="TypeInto_1" SimulateType="True" Text="[user]">
                   <ui:TypeInto.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6b940910-bda4-4c7f-93a7-5350449210ce" InformativeScreenshot="d8b74e6c10654cc9a3fb239168fc8cac" Selector="&lt;webctrl tag='INPUT' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="6b940910-bda4-4c7f-93a7-5350449210ce" InformativeScreenshot="cea73ebb6ecd5e24414b65ef7c192fe9" Selector="&lt;webctrl tag='INPUT' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -254,7 +253,7 @@
                 </ui:TypeInto>
                 <ui:TypeSecureText AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" Activate="True" DisplayName="Type Secure password" EmptyField="True" sap:VirtualizedContainerService.HintSize="726,106" sap2010:WorkflowViewState.IdRef="TypeSecureText_1" SecureText="[pass]" SimulateType="True">
                   <ui:TypeSecureText.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c309ae0b-716e-4132-8b38-5eed8b24d400" InformativeScreenshot="539a1ad2e2a3087c69b45db2bc1e42e1" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="c309ae0b-716e-4132-8b38-5eed8b24d400" InformativeScreenshot="7e64e3ad504440c9fe4c9aeb81e13981" Selector="&lt;webctrl tag='INPUT' type='password' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -276,7 +275,7 @@
                     </ui:CursorPosition>
                   </ui:Click.CursorPosition>
                   <ui:Click.Target>
-                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ec86bf2-65df-4585-8ae6-083bf8c98050" InformativeScreenshot="8884a3e9b70329777db9a9f49900938e" Selector="&lt;webctrl parentid='SpLoginIdPw-login-button' tag='SPAN' /&gt;">
+                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="7ec86bf2-65df-4585-8ae6-083bf8c98050" InformativeScreenshot="401b3946f7c58a83094fe5f5299aeec8" Selector="&lt;webctrl parentid='SpLoginIdPw-login-button' tag='SPAN' /&gt;">
                       <ui:Target.TimeoutMS>
                         <InArgument x:TypeArguments="x:Int32" />
                       </ui:Target.TimeoutMS>
@@ -323,7 +322,7 @@
                   </ui:CursorPosition>
                 </ui:Click.CursorPosition>
                 <ui:Click.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="58210803-a88b-40ce-9f72-d4b0734f3855" InformativeScreenshot="a3d7ce74c4ffa9477c1434e3975a0ae7" Selector="&lt;html app='chrome.exe' title='GeBIZ | *' /&gt;&lt;webctrl tag='A' type='link' aaname='Opportunities' innertext='Opportunities' idx='1' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="58210803-a88b-40ce-9f72-d4b0734f3855" InformativeScreenshot="26a97d7c0e8845392c7e8b1afb292cfc" Selector="&lt;html app='chrome.exe' title='GeBIZ | *' /&gt;&lt;webctrl tag='A' type='link' aaname='Opportunities' innertext='Opportunities' idx='1' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -335,7 +334,7 @@
               </ui:Click>
               <ui:TypeInto AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" ClickBeforeTyping="True" DisplayName="Type keyword into search bar" EmptyField="True" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TypeInto_6" SendWindowMessages="True" SimulateType="False" Text="[keyword+ &quot;[k(enter)]&quot;]">
                 <ui:TypeInto.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e155ee82-ef88-4814-86e6-930349964d37" InformativeScreenshot="ac18f475f2a2f49c58ade3e61727a5b1" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;&lt;webctrl tag='INPUT' type='text' idx='1' /&gt;">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e155ee82-ef88-4814-86e6-930349964d37" InformativeScreenshot="baecb7e6dbca42d9c5cf8b5460efe6e8" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;&lt;webctrl tag='INPUT' type='text' idx='1' /&gt;">
                     <ui:Target.TimeoutMS>
                       <InArgument x:TypeArguments="x:Int32" />
                     </ui:Target.TimeoutMS>
@@ -347,7 +346,7 @@
               </ui:TypeInto>
               <ui:TextExists FormattedText="{x:Null}" DisplayName="Check for open results" sap:VirtualizedContainerService.HintSize="484,134" sap2010:WorkflowViewState.IdRef="TextExists_5" Occurrence="1" Result="[noOppo]" Text="No opportunity found">
                 <ui:TextExists.Target>
-                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f71a9326-59da-4ec0-92d1-bef06278685d" InformativeScreenshot="a46106e5f8155cbb54ca7e5f0af4c52b" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div*' parentid='contentForm:j_idt1*' tag='DIV' idx='432' /&gt;" TimeoutMS="3000">
+                  <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="f71a9326-59da-4ec0-92d1-bef06278685d" InformativeScreenshot="8d44b6636e9edfd7d50f92ce81217f28" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div*' parentid='contentForm:j_idt1*' tag='DIV' idx='432' /&gt;" TimeoutMS="3000">
                     <ui:Target.WaitForReady>
                       <InArgument x:TypeArguments="ui:WaitForReady" />
                     </ui:Target.WaitForReady>
@@ -372,7 +371,7 @@
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message Box" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;No open projects found for Keyword '&quot; + keyword + &quot;'.&quot;]" />
+                    <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" Buttons="Ok" DisplayName="Message for no result, enter new keyword" sap:VirtualizedContainerService.HintSize="334,59" sap2010:WorkflowViewState.IdRef="MessageBox_4" Text="[&quot;No open projects found for Keyword '&quot; + keyword + &quot;'.&quot;]" />
                     <ui:InputDialog Options="{x:Null}" OptionsString="{x:Null}" DisplayName="User enter keyword" sap:VirtualizedContainerService.HintSize="334,238" sap2010:WorkflowViewState.IdRef="InputDialog_7" IsPassword="False" Label="Please enter another keyword" Title="Search GeBiz for open opportunities">
                       <ui:InputDialog.Result>
                         <OutArgument x:TypeArguments="x:String">[keyword]</OutArgument>
@@ -390,7 +389,7 @@
                     <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
-                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'GeBIZOppo Page'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="BrowserScope_10" InformativeScreenshot="8b885645f261e3b92c48182b3dc4941f" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;">
+                <ui:BrowserScope Browser="{x:Null}" SearchScope="{x:Null}" TimeoutMS="{x:Null}" UiBrowser="{x:Null}" BrowserType="Chrome" DisplayName="Attach Browser 'GeBIZOppo Page'" sap:VirtualizedContainerService.HintSize="434,344" sap2010:WorkflowViewState.IdRef="BrowserScope_10" InformativeScreenshot="55289afc6e7782a7eec7c7f971078e9c" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;">
                   <ui:BrowserScope.Body>
                     <ActivityAction x:TypeArguments="x:Object">
                       <ActivityAction.Argument>
@@ -402,9 +401,9 @@
                             <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <ui:ExtractData DelayBetweenPagesMS="{x:Null}" ContinueOnError="True" DataTable="[refDT]" DisplayName="Extract Structured Data 'DIV'" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Ref number' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ExtractData_8" MaxNumberOfResults="0" NextLinkSelector="&lt;webctrl id='contentForm:j_idt1832:j_idt1883_Next_*' tag='INPUT' type='submit' /&gt;" SimulateClick="True">
+                        <ui:ExtractData DelayBetweenPagesMS="{x:Null}" ContinueOnError="True" DataTable="[refDT]" DisplayName="Extract all ref num from keyword result" ExtractMetadata="&lt;extract&gt;&lt;column exact='1' name='Ref number' attr='text'&gt;&lt;webctrl tag='div' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='1' /&gt;&lt;webctrl tag='div' idx='3' /&gt;&lt;/column&gt;&lt;/extract&gt;" sap:VirtualizedContainerService.HintSize="334,106" sap2010:WorkflowViewState.IdRef="ExtractData_8" MaxNumberOfResults="0" NextLinkSelector="&lt;webctrl id='contentForm:j_idt1832:j_idt1883_Next_*' tag='INPUT' type='submit' /&gt;" SimulateClick="True">
                           <ui:ExtractData.Target>
-                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="15eaddb1-fa43-433f-9124-a778da609bb7" InformativeScreenshot="749704aec5bc8ffa38f6c27964730af1" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='contentForm:j_idt1832' tag='DIV' /&gt;" WaitForReady="COMPLETE">
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="15eaddb1-fa43-433f-9124-a778da609bb7" InformativeScreenshot="79978bf6fe9d4604176f1df8e76cb3d3" Selector="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;form&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='contentForm:j_idt1832' tag='DIV' /&gt;" WaitForReady="COMPLETE">
                               <ui:Target.TimeoutMS>
                                 <InArgument x:TypeArguments="x:Int32" />
                               </ui:Target.TimeoutMS>
@@ -512,7 +511,7 @@
                           <ui:CreateDirectory ContinueOnError="{x:Null}" DisplayName="Create Folder with ref num" sap:VirtualizedContainerService.HintSize="434,79" sap2010:WorkflowViewState.IdRef="CreateDirectory_2" Path="[folderpath + ref2.ToString]" />
                           <ui:TypeInto AlterIfDisabled="{x:Null}" ClickBeforeTyping="{x:Null}" DelayBefore="{x:Null}" DelayBetweenKeys="{x:Null}" DelayMS="{x:Null}" Activate="True" DisplayName="type ref num in to search bar" EmptyField="True" sap:VirtualizedContainerService.HintSize="434,134" sap2010:WorkflowViewState.IdRef="TypeInto_7" SendWindowMessages="True" SimulateType="False" Text="[ref2+ &quot;[k(enter)]&quot;]">
                             <ui:TypeInto.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e3841b03-111b-4a56-aae1-2d2003c0462d" InformativeScreenshot="bdd5158e6cb08d7addcc0e0c9e663f2f" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;&lt;webctrl tag='INPUT' type='text' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e3841b03-111b-4a56-aae1-2d2003c0462d" InformativeScreenshot="497b585f54878b95767eb2a522d502ff" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunities' /&gt;&lt;webctrl tag='INPUT' type='text' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -534,7 +533,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bec1e252-76ad-469a-9f3e-bdf37a5d56d1" InformativeScreenshot="39e663e167f7d262b72e7ac771182e2a" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-1' title='GeBIZ | Opportunities' /&gt;&lt;webctrl parentid='contentForm:j_idt1832:j_id32:j_id37' tag='A' type='link' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="bec1e252-76ad-469a-9f3e-bdf37a5d56d1" InformativeScreenshot="30b2368754053697a9574be36a0da3e3" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-1' title='GeBIZ | Opportunities' /&gt;&lt;webctrl parentid='contentForm:j_idt1832:j_id32:j_id37' tag='A' type='link' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -546,7 +545,7 @@
                           </ui:Click>
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get ref number" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="GetValue_6">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="0e8e5409b20242ac5a8b81257ef86308" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl parentid='contentForm:j_idt254' tag='DIV' idx='8' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="df6cdd09fde0057b8a027f07a92fb346" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl parentid='contentForm:j_idt254' tag='DIV' idx='8' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -561,7 +560,7 @@
                           </ui:GetValue>
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get agency" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="GetValue_7">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="1e6e36a7bad9724c6683515619cacc62" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl parentid='contentForm:j_idt256' tag='DIV' idx='8' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="400b539ddbbfd29687d3a5b4ed42c896" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl parentid='contentForm:j_idt256' tag='DIV' idx='8' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -576,7 +575,7 @@
                           </ui:GetValue>
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get description" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="GetValue_8">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="3e1eb306a5c977951102c8a2597f3be6" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl isleaf='1' parentid='contentForm:j_idt225' tag='DIV' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="295eca26e3802abbdd6b4902ffb63ad4" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl isleaf='1' parentid='contentForm:j_idt225' tag='DIV' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -591,7 +590,7 @@
                           </ui:GetValue>
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get published date" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="GetValue_9">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="00e64e9e7e9c064317cc4aec7cf27729" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl parentid='contentForm:j_idt257' tag='DIV' idx='8' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="afe9d981e6c692459617092921b4e87c" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl parentid='contentForm:j_idt257' tag='DIV' idx='8' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -606,7 +605,7 @@
                           </ui:GetValue>
                           <ui:GetValue ContinueOnError="{x:Null}" DisplayName="Get closing date" sap:VirtualizedContainerService.HintSize="434,106" sap2010:WorkflowViewState.IdRef="GetValue_10">
                             <ui:GetValue.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="bdbccb14bd7594bfc45e64c6dd25c680" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl aaname='*:00PM' parentid='contentForm:j_idt294' tag='DIV' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="b7045e08-70d8-41d0-97f2-c0ba47361601" InformativeScreenshot="135ae80db04c021fed935969d1987805" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl aaname='*:00PM' parentid='contentForm:j_idt294' tag='DIV' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -638,7 +637,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8b04d772-579e-4f94-9c8b-4db0d409ac04" InformativeScreenshot="0b83800251d444e8f630dd3e06dc023a" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl name='contentForm:j_idt*' tag='INPUT' type='submit' aaname='Download All*' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8b04d772-579e-4f94-9c8b-4db0d409ac04" InformativeScreenshot="590786892fb33f132659b9e34020b72e" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl name='contentForm:j_idt*' tag='INPUT' type='submit' aaname='Download All*' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -653,7 +652,7 @@
                               <OutArgument x:TypeArguments="x:String">[nextyes]</OutArgument>
                             </ui:GetAttribute.Result>
                             <ui:GetAttribute.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8a87bb54-b418-4baa-8b37-28811c38164b" InformativeScreenshot="d90fa9d9bd1109a7094bbe3226d262c9" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl id='contentForm:j_idt357:j_idt361:j_idt380_formRepeatPagination_NEXT*' tag='INPUT' type='submit' /&gt;" TimeoutMS="2000">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8a87bb54-b418-4baa-8b37-28811c38164b" InformativeScreenshot="688f1e1754606bf25f4c112fc0012da7" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl id='contentForm:j_idt357:j_idt361:j_idt380_formRepeatPagination_NEXT*' tag='INPUT' type='submit' /&gt;" TimeoutMS="2000">
                                 <ui:Target.WaitForReady>
                                   <InArgument x:TypeArguments="ui:WaitForReady" />
                                 </ui:Target.WaitForReady>
@@ -680,7 +679,7 @@
                                     </ui:CursorPosition>
                                   </ui:Click.CursorPosition>
                                   <ui:Click.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e3806b3e-2eb7-4b06-b483-b211af495246" InformativeScreenshot="0f229e45ba79d4a40e3a97dfc57046d0" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl id='contentForm:j_idt357:j_idt361:j_idt380_formRepeatPagination_NEXT*' tag='INPUT' type='submit' /&gt;">
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="e3806b3e-2eb7-4b06-b483-b211af495246" InformativeScreenshot="4011e011cc59042ebe6bcb206df39b3b" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl id='contentForm:j_idt357:j_idt361:j_idt380_formRepeatPagination_NEXT*' tag='INPUT' type='submit' /&gt;">
                                       <ui:Target.TimeoutMS>
                                         <InArgument x:TypeArguments="x:Int32" />
                                       </ui:Target.TimeoutMS>
@@ -702,7 +701,7 @@
                                     </ui:CursorPosition>
                                   </ui:Click.CursorPosition>
                                   <ui:Click.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8b04d772-579e-4f94-9c8b-4db0d409ac04" InformativeScreenshot="0b83800251d444e8f630dd3e06dc023a" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl name='contentForm:j_idt*' tag='INPUT' type='submit' aaname='Download All*' /&gt;">
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8b04d772-579e-4f94-9c8b-4db0d409ac04" InformativeScreenshot="364c368c231004d681e4d4bd34f73c08" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl name='contentForm:j_idt*' tag='INPUT' type='submit' aaname='Download All*' /&gt;">
                                       <ui:Target.TimeoutMS>
                                         <InArgument x:TypeArguments="x:Int32" />
                                       </ui:Target.TimeoutMS>
@@ -717,7 +716,7 @@
                                     <OutArgument x:TypeArguments="x:String">[nextyes]</OutArgument>
                                   </ui:GetAttribute.Result>
                                   <ui:GetAttribute.Target>
-                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8a87bb54-b418-4baa-8b37-28811c38164b" InformativeScreenshot="d90fa9d9bd1109a7094bbe3226d262c9" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl id='contentForm:j_idt357:j_idt361:j_idt380_formRepeatPagination_NEXT*' tag='INPUT' type='submit' /&gt;">
+                                    <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="8a87bb54-b418-4baa-8b37-28811c38164b" InformativeScreenshot="82c8dcd23abde4237542b8fe2b9dac61" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl id='contentForm:j_idt357:j_idt361:j_idt380_formRepeatPagination_NEXT*' tag='INPUT' type='submit' /&gt;">
                                       <ui:Target.TimeoutMS>
                                         <InArgument x:TypeArguments="x:Int32" />
                                       </ui:Target.TimeoutMS>
@@ -742,7 +741,7 @@
                               </ui:CursorPosition>
                             </ui:Click.CursorPosition>
                             <ui:Click.Target>
-                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1c2c7fa8-d83c-43d0-97e6-fbb963cf0d96" InformativeScreenshot="51b37134d373c8c6d6267c4f4f2c19eb" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl name='contentForm:j_idt956' tag='INPUT' type='submit' /&gt;">
+                              <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="1c2c7fa8-d83c-43d0-97e6-fbb963cf0d96" InformativeScreenshot="410eba31fc83d4c71e23e2e9c6773674" Selector="&lt;html app='chrome.exe' htmlwindowname='multipleWindowBlocker_WindowTab-*' title='GeBIZ | Opportunity Details' /&gt;&lt;webctrl name='contentForm:j_idt956' tag='INPUT' type='submit' /&gt;">
                                 <ui:Target.TimeoutMS>
                                   <InArgument x:TypeArguments="x:Int32" />
                                 </ui:Target.TimeoutMS>
@@ -802,7 +801,7 @@
                             <av:Size x:Key="ShapeSize">200,123</av:Size>
                           </scg:Dictionary>
                         </sap:WorkflowViewStateService.ViewState>
-                        <Sequence sap2010:Annotation.AnnotationText="Send email with excel attachment, and show completed message." DisplayName="Create excel and send email" sap:VirtualizedContainerService.HintSize="200,123" sap2010:WorkflowViewState.IdRef="Sequence_52">
+                        <Sequence sap2010:Annotation.AnnotationText="Send email with excel attachment, and show completed message." DisplayName="Create excel and send email" sap:VirtualizedContainerService.HintSize="376,378" sap2010:WorkflowViewState.IdRef="Sequence_52">
                           <sap:WorkflowViewStateService.ViewState>
                             <scg:Dictionary x:TypeArguments="x:String, x:Object">
                               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
